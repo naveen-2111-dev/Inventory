@@ -1,0 +1,105 @@
+:root {
+  --yellow: #eefe3c;
+  --black: #000000;
+  --grey: #646464;
+}
+.Midcontainer {
+  width: 20rem;
+  height: 32rem;
+  border-radius: 30px;
+}
+.top {
+  width: 30rem;
+  height: 15.5rem;
+  background-color: var(--color);
+  margin-top: 2px;
+  border-radius: 20px;
+}
+.top:first-child > p {
+  text-align: center;
+  color: var(--black);
+  margin-left: 10rem;
+  margin-top: -10px;
+}
+.top:first-child > select {
+  margin: 10px;
+  width: 12rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--grey);
+  border: 1px solid var(--grey);
+  cursor: pointer;
+}
+
+.top:first-child > .p1 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 30px;
+}
+.top:first-child > .p2 {
+  color: var(--black);
+  font-size: 15px;
+  font-weight: 300;
+}
+.top:first-child > a > button {
+  width: 12rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--grey);
+  border: 1px solid var(--black);
+  margin: 0px 46%;
+  cursor: pointer;
+  transition: 0.07s ease-in-out;
+}
+.top:first-child > a > button:hover {
+  background-color: var(--color);
+  color: var(--black);
+}
+.top:first-child > .logo {
+  background-image: url(../../images/image1.png);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-size: 130px;
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  margin-top: -8px;
+}
+
+.top:last-child > p {
+  text-align: center;
+  color: var(--black);
+  margin-top: 20px;
+}
+.top:last-child > .p3 {
+  padding-top: 20px;
+  font-size: 35px;
+}
+.top:last-child > .p4 {
+  margin-top: -50px;
+  font-size: 45px;
+}
+.top:last-child > a > button {
+  margin: 0px 27%;
+  border-radius: 20px;
+  width: 15rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: var(--grey);
+  border: 1px solid var(--black);
+  font-weight: 600;
+}
+.top:last-child > a > button:hover {
+  background-color: var(--color);
+  color: var(--black);
+}
+
+.logo > img {
+  height: 188.5px;
+}

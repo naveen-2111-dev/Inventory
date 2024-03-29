@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--white);
+}
+.container1 {
+  width: 20rem;
+  height: auto;
+  margin-left: 11rem;
+}
+.con1 {
+  width: 20rem;
+  height: 9.5rem;
+  background: grey;
+  border-radius: 20px;
+}
+.con1 > .deco {
+  width: 1rem;
+  margin: 20px;
+  margin-top: -8px;
+  background-color: var(--white);
+  border-radius: 15px;
+}
+.con1 > .northeast {
+  background-color: transparent;
+  margin-left: 20%;
+  margin-top: 10px;
+  position: absolute;
+  font-size: 25px;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.07s ease-in-out;
+}
+.con1 > .northeast:hover {
+  background-color: var(--black);
+  border: 1px solid var(--black);
+  color: var(--white);
+}
+.con1 > .titletext {
+  margin-left: 15px;
+  padding: 10px;
+  color: var(--black);
+  font-weight: 600;
+}
+.con1:nth-child(2) {
+  height: 10rem;
+}
+.con1:nth-child(2) > .email {
+  width: 18rem;
+  height: 2.5rem;
+  margin: 5px 0px 0px 15px;
+  border: 2px solid var(--grey);
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 20px var(--grey);
+}
+.con1:nth-child(2) > .email > .title1 {
+  text-align: center;
+  margin: 5px;
+}
+.con1:last-child {
+  height: 11rem;
+}
+.con1:last-child > .circle {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+.con1:last-child > .circle > .circle-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  clip: rect(0, 100px, 100px, 50px);
+  /* background: conic-gradient(var(--yellow) 0% ${percentage}%, transparent ${percentage}% 100%); */
+  text-align: center;
+}
+.con1:last-child > .circle > .circle-progress > p {
+  line-height: 1.5;
+  margin: 0;
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}

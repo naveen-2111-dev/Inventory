@@ -1,0 +1,38 @@
+.container > .formfield > .newpass {
+  margin-top: 20px;
+}
+
+.bottomgap {
+  margin-bottom: 40px;
+}
+
+.newpass {
+  margin-top: 50px;
+}
+
+.transform {
+  text-transform: uppercase;
+}
+
+/* Loader */
+.bar-loader {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #333;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.LoaderClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

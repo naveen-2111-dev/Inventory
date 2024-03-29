@@ -1,0 +1,79 @@
+:root {
+  --yellow: #c4fe37;
+}
+body {
+  transition: 0.07s ease-in-out;
+}
+.calendar {
+  max-width: 350px;
+  margin: 20px;
+  font-family: "Arial", sans-serif;
+  background: grey;
+  border-radius: 10px;
+  padding: 20px;
+  height: 515px;
+}
+
+.calendar-content {
+  text-align: left;
+}
+
+.month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.month h2 {
+  margin: 0;
+}
+
+.month button {
+  background: none;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  padding: 2px 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 20px;
+  height: 30px;
+}
+.month button:hover {
+  background-color: var(--black);
+  transform: scale(1.2);
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.days div {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  order: unset;
+  transition: 0.07s ease-in-out;
+}
+.days div:hover {
+  background-color: grey;
+  border-radius: 50%;
+}
+.today {
+  background-color: var(--color);
+  color: black;
+  border-radius: 50%;
+}

@@ -1,0 +1,101 @@
+:root {
+  --primary-color: white;
+  --secondry-color: black;
+  --shadow: 1px solid black;
+  --color: rgb(31, 173, 229);
+  --grey2: rgba(177, 175, 175, 0.836);
+}
+
+.Logincontainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: var(--grey2);
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading > h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.formfield {
+  display: flex;
+  flex-direction: column;
+}
+
+.formfield > .textInput {
+  padding: 10px;
+  width: 30rem;
+  margin-bottom: 20px;
+  background: var(--grey);
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+.formfield > .passInput {
+  padding: 10px;
+  width: 30rem;
+  border: none;
+  background: var(--grey);
+  border-radius: 5px;
+  color: black;
+}
+
+.formfield > .Button {
+  padding: 10px;
+  width: 30rem;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 900;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: var(--color);
+}
+
+.extraElements > p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.none {
+  text-decoration: none;
+  color: black;
+}
+
+.none1 {
+  text-decoration: none;
+}
+
+.divider > h3 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.register > P {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: capitalize;
+  font-size: 12px;
+  text-align: center;
+}

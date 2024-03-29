@@ -1,0 +1,59 @@
+.ForgetPassword-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+  background-color: var(--grey2);
+}
+
+.ForgetPassword-container > .Title > h1 {
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.ForgetPassword-container > .formclass > .FormFieldEmail {
+  padding: 10px;
+  width: 30rem;
+  border: none;
+  background-color: var(--grey);
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.ForgetPassword-container > .formclass > .formButton > .SendButton {
+  padding: 10px;
+  width: 30rem;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  align-items: center;
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(31, 173, 229);
+  box-shadow: 2px 2px 40px rgb(31, 173, 229);
+  color: white;
+  cursor: pointer;
+}
+
+.next {
+  text-align: center;
+}
+
+.next > .option {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.next > .linker {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.linker2 {
+  text-decoration: none;
+}

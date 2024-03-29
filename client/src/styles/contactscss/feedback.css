@@ -1,0 +1,89 @@
+:root {
+  --primary-color: white;
+  --secondry-color: black;
+  --shadow: 1px solid black;
+  --color: rgb(31, 173, 229);
+  --grey: rgba(250, 250, 250, 0.637);
+  --white: white;
+}
+
+.container2-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  margin-top: 25px;
+  background-color: rgba(177, 175, 175, 0.836);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container2 > form {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+
+.btn {
+  width: 40rem;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.forminput {
+  width: 40rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: var(--grey);
+  color: var(--black);
+}
+
+.message {
+  padding: 0px;
+  padding-bottom: 6.8rem;
+  align-items: end;
+}
+
+.socialData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+
+.socialData > a {
+  color: var(--black);
+  font-size: 2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.forminput::placeholder {
+  color: grey;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+.insta:hover {
+  color: rgba(250, 8, 210, 0.781);
+  scale: 1px;
+}
+
+.Linkedin:hover,
+.Fb:hover {
+  color: rgba(42, 42, 189, 0.938);
+  scale: 1px;
+  z-index: 1;
+}
+
+.X:hover {
+  color: var(--color);
+  scale: 1px;
+}

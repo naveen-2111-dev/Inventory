@@ -1,0 +1,56 @@
+.ContentPage1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Cards {
+  width: calc(25% - 20px);
+  height: 10rem;
+  margin: 10px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  background-color: var(--color);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.07s ease-in-out;
+  cursor: pointer;
+}
+.Cards:hover {
+  transform: scale(1.01);
+}
+
+.CardTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.DeptName {
+  font-size: 0.7rem;
+  margin: 5px;
+  margin-top: -10px;
+  font-weight: 500;
+  color: #1c1c1c;
+  text-align: center;
+}
+
+.count {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Cards:nth-child(odd) {
+  background-color: grey;
+}
+
+.Cards:nth-child(3n) {
+  background-color: skyblue;
+}
+
+@media (max-width: 768px) {
+  .Cards {
+    width: calc(33.33% - 20px);
+  }
+}

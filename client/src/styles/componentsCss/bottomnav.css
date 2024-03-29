@@ -1,0 +1,29 @@
+:root {
+  --white: #ffffff;
+}
+
+.navbottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.buttonsdiv {
+  display: flex;
+  width: 100rem;
+  height: 70px;
+}
+
+.navbottom > .buttonsdiv > button {
+  background-color: var(--grey);
+  color: var(--black);
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.navbottom > .buttonsdiv > button:hover {
+  background-color: var(--black);
+  color: var(--grey);
+  border: 1px solid var(--yellow);
+}

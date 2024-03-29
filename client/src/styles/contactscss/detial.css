@@ -1,0 +1,28 @@
+.mail:first-child {
+  width: 45rem;
+  height: 10rem;
+  background-color: var(--grey);
+  backdrop-filter: blur(60px);
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 2rem;
+  color: var(--black);
+  font-weight: 700;
+}
+.mail:last-child {
+  margin-top: 10px;
+  width: 45rem;
+  height: 17.5rem;
+  background-image: url("../../images/image2.jpg");
+  background-size: 45rem;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5rem;
+  color: var(--black);
+  font-weight: 700;
+}

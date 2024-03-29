@@ -1,0 +1,59 @@
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: var(--color);
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.contentContainer2 {
+  padding: 30px;
+  background: rgba(177, 175, 175, 0.836);
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: black;
+}
+
+.infoRow {
+  display: grid;
+  grid-template-columns: repeat(6, 0.5fr);
+  grid-gap: 20px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.headrows {
+  background-color: grey;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.des,
+.discription,
+.name,
+.date,
+.duedate,
+.materials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.true {
+  color: rgb(4, 97, 4);
+}
+
+.false {
+  color: red;
+}
+
+.mainheadrow {
+  background-color: var(--white);
+}
