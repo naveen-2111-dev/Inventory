@@ -1,6 +1,6 @@
 # Authendication using mern
 
-##techstack
+## techstack
 - React
 - mongo db
 - express
